@@ -1,0 +1,296 @@
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+nav a:hover{
+    background-color: #989898;
+}
+
+.btn-home{
+        padding: 12px 24px;
+        background-color: #ffff;
+        border-radius: 8px;
+        border: none;
+        font-weight: 500;
+        color: brown;
+        font-size: 22px;
+}
+.btn-cart-primary{
+    padding: 8px 16px;
+    background-color: brown;
+    border-radius: 8px;
+    border: none;
+    font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+}
+.btn-cart{
+        padding: 12px 24px;
+        background-color: brown;
+        border-radius: 8px;
+        border: none;
+        font-weight: 500;
+        color: #fff;
+        /* font-size: 22px; */
+}
+
+
+.linkToPages{
+    color: white;
+}
+.linkToPages:hover{
+    background-color: lightblue;
+    text-decoration: underline;
+}
+
+.table{
+    display: table;
+}
+
+.row{
+    display: table-row;
+}
+
+.accountInfo, .accountValue, .bookInfo, .cart{
+    display: table-cell;
+    padding: 15px 20px;
+}
+
+.cell{
+    display: table-cell;
+    padding: 5px;
+}
+
+   
+    
+    /* body {background-color: rgb(174, 216, 216);
+    } */
+    
+
+    
+    
+    
+    .login_cust,.login_admin {
+
+    font-family: "Roboto", sans-serif;
+   
+    background: gainsboro;
+    width: 25%;
+    border: 0;
+    text-align: center;
+    margin: 0 0 15px;
+    padding: 20px ;
+    position: relative;
+
+  
+    height: 70px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .container{
+      width: 80%;
+      margin: auto;
+      padding: 30px;
+      position: relative;
+      background: white;
+      border-radius: 20px;
+  }
+  .in_quantity {
+      border: none;
+      border-bottom: 1px solid #999;
+      background-color: transparent;
+      outline: none;
+  }
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .table tr {
+      cursor: pointer;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+
+
+  tr:hover {background-color: #66666644;}
+
+
+  .demo{
+      background-color: aquamarine;
+      padding: 20px 15px;
+      border: 1px solid burlywood;
+  }
+
+  
+  .flex{
+      display: flex;
+  }
+
+
+  .home-bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+        height: 100vh;
+        background: url(assets/book\ bg.png);
+  }
+  .header-text{
+    font-size: 48px;
+    font-weight: 500;
+    color: #fff;
+
+  }
+  .button-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+
+  /* cart-controls */
+.cart-controls{
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+ .main-heading{
+     font-size: 32px;
+     font-weight: 600;
+     color: brown;
+     display: flex;
+     justify-content: center;
+ }
+
+        /* View cart */
+
+        .cart-bg{
+            box-shadow: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        .cart-card{
+            box-shadow: 0 14px 28px rgba(0,0,0,10%), 0 10px 10px rgba(0,0,0,2%);
+            border-radius: 20px;
+        }
+       
+
+        .btn-back{
+        display: flex;
+        align-items: center;
+        color: brown;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .btn-back svg{
+        color: brown;
+    }
+
+    .pd-img{
+        width: 50px;
+        height: 50px;
+        border-radius: 8px;
+        background: url(assets/book.png);
+        background-size: cover;
+    }
+    .cart-img{
+            width: 230px;
+            background: url(/static/media/cart-img.33be75b6.svg);
+            height: 200px;
+            background-size: cover;
+            position: fixed;
+            bottom: 50px;
+            animation: cart-animation 10s infinite;
+
+        }
+
+
+        @keyframes cart-animation {
+            0%{
+                left: 10vw;
+            }
+            100%{
+                left: 70vw;
+            }
+          }
+
+          .right-sec{
+              background-image: url("assets/book.png");
+              background-size: cover;
+          }
+
+          .sign-bg{
+              background-size: cover;
+                background: url(assets/Desktop\ -\ 1.png);
+          }
+
+          .card-width{
+              width: 30%;
+          }
+
+
+          form {
+            width: 100%;
+          }
+          
+          .loginBox {
+            width: 50%;
+            text-align: center;
+            position: relative;
+            left: 50%;
+            transform: translate(-50%, 20%);
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.4);
+          }
+          
+          .signUpSubmit {
+            margin: 25px 0 15px 0;
+          }
+          
+          .pwStrRow {
+            width: 63%;
+            text-align: left;
+            margin: auto;
+            padding: 0;
+            font-size: 12px;
+          }
+          
+          .pwStrWeak {
+            display: inline-block;
+            position: relative;
+            left: 0;
+            padding: 0;
+            margin: 0;
+            color: gray;
+          }
+          
+          .pwStrStrong {
+            display: inline-block;
+            position: relative;
+            left: 77%;
+            padding: 0;
+            margin: 0;
+            color: gray;
+          }
+          
+          @media screen and (max-width: 550px) {
+            .loginBox {
+              width: 85%;
+            }
+          }
+          
